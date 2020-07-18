@@ -1,18 +1,104 @@
-ul li{
-	display:inline;
-	;
-
+header {
+	display:block
 }
-li {
-  float: left;
+
+body {
+	background:#000;
+	border:0;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#72716f;
+	line-height:20px;
+	min-width:980px
 }
 
 a {
-  display: block;
-  padding: 8px;
-  background-color:red
- 
+	color:#72716f;
+	text-decoration:underline;
+	outline:none
 }
-.nav{
-	background-color: gray;
+a:hover {
+	text-decoration:none
+}
+h1 {
+	padding:40px 0 0 38px;
+	float:left
+}
+h2 {
+	font-size:21px;
+	line-height:1.2em;
+	padding:6px 0 15px 0;
+	color:#fff;
+	letter-spacing:-1px
+}
+h2 img {
+	margin-right:15px;
+	float:left
+}
+p {
+	padding-bottom:20px
+}
+
+header {
+	height:116px
+}
+.logo{
+	
+	color: white;
+	
+
+}
+.department {
+	float:right;
+	padding:37px 35px 0 0;
+	color:#72716f;
+	text-align:right
+}
+.department span {
+	color:#fff
+}
+#menu {
+	background:#fff;
+	padding:10px 2px;
+	height:39px;
+	margin-bottom:10px
+}
+#menu > li {
+	border-right:1px solid #f2f2f2;
+	float:left
+}
+#menu .last {
+	border:0
+}
+#menu > li > a {
+	display:block;
+	padding:0 62px;
+	font-size:16px;
+	color:#12110f;
+	text-decoration:none;
+	line-height:39px
+}
+#menu > li > a:hover, #menu > .active > a {
+	color:#f3b21d
+}
+#menu > li > a:hover, #menu > .active > a {
+	color:#f3b21d
+}
+
+.box {
+	background:#12110f;
+	box-shadow:0 0 6px #000;
+	-moz-box-shadow:0 0 6px #000;
+	-webkit-box-shadow:0 0 6px #000;
+	position:relative
+}
+
+/*height and width for home logo*/
+
+.pad{
+	width:512px;
+	height:300px;
+	padding:25px;
+
+
+
 }
