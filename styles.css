@@ -3,7 +3,7 @@ header {
 }
 
 body {
-	background:#000;
+	background-image: url("images/bg.gif");
 	border:0;
 	font:12px Arial, Helvetica, sans-serif;
 	color:#72716f;
@@ -19,23 +19,23 @@ a {
 a:hover {
 	text-decoration:none
 }
-h1 {
+.h1main {
 	padding:40px 0 0 38px;
 	float:left
 }
-h2 {
+.h2main {
 	font-size:21px;
 	line-height:1.2em;
 	padding:6px 0 15px 0;
 	color:#fff;
 	letter-spacing:-1px
 }
-h2 img {
+.h2img {
 	margin-right:15px;
 	float:left
 }
 p {
-	padding-bottom:20px
+	padding-bottom:0px
 }
 
 header {
@@ -97,8 +97,42 @@ header {
 .pad{
 	width:512px;
 	height:300px;
-	padding:25px;
+	padding:10px;
+}
+.headericon{
+	float:center;
+	font-family:cursive;
 
+}
 
+.paraicon{
+	float:left;
+	 padding-right: 0px;
+	 height:200px;
+	 width:200px;
+}
+.h1main2{
+	float:center;
+	color:#FFFFFF;
+}
 
+hr{
+	color:#FFFFFF;
+	height:20px
+	background-color:#FFFFFF;
+	margin:0px; 
+}
+
+.pmain{
+	float:left;
+	border: 5px solid white;
+	margin: 5px 5px 5px 20px;
+	height:200px;
+	width:200px;
+}
+#pmain2{
+	font-size: 24px;
+	font-family: sans-serif;
+	color:white;
+	justify-content: left;
 }

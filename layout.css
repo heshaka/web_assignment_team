@@ -1,0 +1,17 @@
+<!--
+ul li{
+	display:inline;
+	;
+
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+ 
+}
+.nav{
+	background-color: gray;
