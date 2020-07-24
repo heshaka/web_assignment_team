@@ -29,6 +29,7 @@ a:hover {
 	padding:6px 0 15px 0;
 	color:#fff;
 	letter-spacing:-1px
+
 }
 .h2img {
 	margin-right:15px;
@@ -49,7 +50,7 @@ header {
 }
 .department {
 	float:right;
-	padding:37px 35px 0 0;
+	padding:none;
 	color:#72716f;
 	text-align:right
 }
@@ -80,9 +81,8 @@ header {
 #menu > li > a:hover, #menu > .active > a {
 	color:#f3b21d
 }
-#menu > li > a:hover, #menu > .active > a {
-	color:#f3b21d
-}
+
+
 
 .box {
 	background:#12110f;
@@ -95,9 +95,9 @@ header {
 /*height and width for home logo*/
 
 .pad{
-	width:512px;
-	height:300px;
-	padding:10px;
+	width:100%;
+	height:600px;
+	
 }
 .headericon{
 	float:center;
@@ -125,10 +125,8 @@ hr{
 
 .pmain{
 	float:left;
-	border: 5px solid white;
-	margin: 5px 5px 5px 20px;
-	height:200px;
-	width:200px;
+
+	
 }
 #pmain2{
 	font-size: 24px;
@@ -136,3 +134,55 @@ hr{
 	color:white;
 	justify-content: left;
 }
+.ceoimg{
+	border:1px solid grey;
+  border-radius: 50%;
+  width:200px;
+  padding:0px 0px 0px 0px;
+}
+.text{
+	font-size:14px;
+}
+.bgdiv{
+	border:1px solid grey;
+	background-color:white;
+	height:150px;
+}
+.text1{
+	font-size:14px;
+
+}
+.footer0{
+	border:1px solid grey;
+	background-color:white;
+	height:1150px;
+
+}
+.footer1{
+	width:597px;
+	height:400px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.footer2{
+    padding-top:20px;
+	height:450px;
+	padding-bottom: 20px;
+
+}
+.footer3{
+	
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.footer4{
+	padding-top:10px;
+	
+}
+footer{
+	width:100%;
+	height:250px;
+	background-color:#C0C0C0;
+}
+
