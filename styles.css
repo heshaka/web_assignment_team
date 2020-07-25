@@ -120,7 +120,6 @@ hr{
 	color:#FFFFFF;
 	height:20px
 	background-color:#FFFFFF;
-	margin:0px; 
 }
 
 .pmain{
@@ -144,45 +143,72 @@ hr{
 	font-size:14px;
 }
 .bgdiv{
+	align-content: center;
 	border:1px solid grey;
 	background-color:white;
 	height:150px;
 }
+
+.fillblack{
+height: 20px;
+width: 100%;
+background-image: url("images/bg.gif");
+}
+
 .text1{
-	font-size:14px;
+	border:1px solid grey;
+	background-color:white;
+	height:200px;
+	width:100%;
 
 }
 .footer0{
 	border:1px solid grey;
 	background-color:white;
-	height:1150px;
+	height:1250px;
+	width:100%;
 
 }
 .footer1{
-	width:597px;
-	height:400px;
+	width:40%;
+	height:560px;
 	padding-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 20px;
 }
 .footer2{
     padding-top:20px;
-	height:450px;
+    width:55%;
+	height:560px;
 	padding-bottom: 20px;
 
 }
 .footer3{
-	
+	width:45%;
+	height:600px;
 	padding-right: 20px;
 	padding-left: 10px;
 }
 .footer4{
+	width:50%;
+	height:600px;
 	padding-top:10px;
 	
 }
 footer{
 	width:100%;
-	height:250px;
-	background-color:#C0C0C0;
+	height:150px;
+	background-color:black;
+}
+#hmain3{
+	width:100%;
+}
+.head1{
+	font-size:40px;
+
+}
+.footer5{
+	float:right;
+
 }
 
