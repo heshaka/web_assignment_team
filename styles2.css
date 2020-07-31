@@ -30,7 +30,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 body{
-  background-image: url("images/bg.gif"); 
+  background-image: url("wed-07.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 h2{
   color:#FFFFFF;
