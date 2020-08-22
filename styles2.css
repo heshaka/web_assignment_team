@@ -1,0 +1,129 @@
+ {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #686868;
+  margin: 10% 30% 10% 30%;
+  padding: 50px;
+  font-family: sans-serif;
+  color: white;
+  
+}
+body{
+  background-image: url("https://www.itl.cat/pngfile/big/42-429842_light-grey-background-wallpaper-light-grey-background-wallpaper.jpg"); 
+  margin: 0;
+  padding: 0;
+}
+h2{
+  color:#161616;
+  font-family: serif;
+  text-align: center;
+  font-size: 50px;
+  margin: 0%;
+  padding-top: 8%;
+}
+#menu {
+  background:#fff;
+  padding:10px 2px;
+  height:39px;
+  margin-bottom:10px
+}
+#menu > li {
+  border-right:1px solid #f2f2f2;
+  float:left
+}
+#menu .last {
+  border:0
+}
+#menu > li > a {
+  display:block;
+  padding:0 62px;
+  font-size:16px;
+  color:#12110f;
+  text-decoration:none;
+  line-height:39px
+}
+#menu > li > a:hover, #menu > .active > a {
+  color:#f3b21d
+}
+
+
+
+.box {
+  background:#12110f;
+  box-shadow:0 0 6px #000;
+  -moz-box-shadow:0 0 6px #000;
+  -webkit-box-shadow:0 0 6px #000;
+  position:relative
+}
+.navbar{
+  position: fixed;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: grey;
+  width: 100%;
+  font-family:Arial, Helvetica, sans-serif ;
+  z-index: 1;
+
+}
+
+.nav{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;;
+  font-size: 15px;
+ 
+
+}
+.logo{
+  flex: 1 1 auto;
+  margin-left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a{
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: white;
+  
+}
+
+header{
+
+}
